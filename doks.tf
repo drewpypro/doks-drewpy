@@ -2,7 +2,7 @@ resource "digitalocean_kubernetes_cluster" "doks-drewpy" {
   name   = "doks-drewpy"
   region = "nyc1"
   # Grab the latest version slug from `doctl kubernetes options versions`
-  version = "1.31.1-do.5"
+  version = "1.22.8-do.1"
 
   node_pool {
     name       = "worker-pool"

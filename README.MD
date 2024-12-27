@@ -38,7 +38,6 @@
     ```
     kubectl config get-contexts
     CURRENT   NAME                                                    CLUSTER                                                 AUTHINFO                                                NAMESPACE
-            arn:aws:eks:us-east-1:602484972838:cluster/eks-drewpy   arn:aws:eks:us-east-1:602484972838:cluster/eks-drewpy   arn:aws:eks:us-east-1:602484972838:cluster/eks-drewpy
     *         do-nyc3-k8s-1-31-1-do-5-nyc3-1735319477867              do-nyc3-k8s-1-31-1-do-5-nyc3-1735319477867              do-nyc3-k8s-1-31-1-do-5-nyc3-1735319477867-admin
 
 
