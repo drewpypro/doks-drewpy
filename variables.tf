@@ -1,4 +1,4 @@
-variable "digitalocean_token" {
+variable "DIGITALOCEAN_TOKEN" {
   description = "DigitalOcean API token"
   type        = string
 }
