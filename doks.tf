@@ -9,6 +9,11 @@ resource "digitalocean_kubernetes_cluster" "doks-drewpy" {
     size       = "s-1vcpu-2gb"
     node_count = 2
 
+  maintenance_policy {
+    start_time = "04:00"
+    day        = "sunday"
+  }
+  
     taint {
       key    = "workloadKind"
       value  = "application"
